@@ -1,0 +1,13 @@
+# ==============================================================================
+# 指向你的数据集绝对路径
+# ==============================================================================
+path: F:\\Paper_Project2026.1.8\\code\\Garbage_Detection\\data_final
+
+train: images/train  # 训练集 (包含 真实图片 + GAN增强图片)
+val: images/val      # 验证集 (只包含 真实图片)
+
+# 类别数量
+nc: 12
+
+# 类别名称 (必须与你之前的保持一致)
+names: ['Recycle garbage', 'Other garbage', 'diry oil water', 'staff tools', 'garbage can', 'entrance open', 'person', 'clean water', 'glare', 'shadow', 'device', 'pet']
