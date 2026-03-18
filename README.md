@@ -1,7 +1,7 @@
 # EcoDetect-YOLO: Sanitary Condition Monitoring in Garbage Rooms
 
 ## Description
-This repository contains the official implementation of **EcoDetect-YOLO**, a synergistic framework designed for real-time sanitary condition monitoring in semi-outdoor garbage rooms. It integrates a Structural Similarity Index Measure (SSIM) preprocessing module with a lightweight YOLOv5 architecture to achieve high-precision and low-power inference on edge devices (RK3399).
+This repository contains the official implementation of **EdgeWaste-YOLO**, a synergistic framework designed for real-time sanitary condition monitoring in semi-outdoor garbage rooms. It integrates a Structural Similarity Index Measure (SSIM) preprocessing module with a lightweight YOLOv5 architecture to achieve high-precision and low-power inference on edge devices (RK3399).
 
 ## Dataset Information
 The **GADIG Dataset** (Garbage Detection dataset of Intelligent Garbage) constructed in this study contains over 5,000 images covering various weather conditions, extreme lighting, and complex backgrounds.
