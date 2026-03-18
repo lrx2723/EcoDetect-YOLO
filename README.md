@@ -16,8 +16,9 @@ The codebase is built upon PyTorch and optimized for edge deployment. It include
 - PyTorch 1.8+
 - OpenCV, NumPy, SciPy
 To install the dependencies, run:
-```bash
+  bash
 pip install -r requirements.txt
+  
 
 ## Usage Instructions
 1. Training
