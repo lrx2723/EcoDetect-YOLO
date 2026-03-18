@@ -1110,7 +1110,7 @@ class Classify(nn.Module):
             x = torch.cat(x, 1)
         return self.linear(self.drop(self.pool(self.conv(x)).flatten(1)))
 
-# ================= 复制到 models/common.py 末尾 =================
+# ==================================
 
 class InceptionWeb(nn.Module):
     """
