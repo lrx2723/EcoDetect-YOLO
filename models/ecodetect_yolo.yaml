@@ -1,7 +1,7 @@
 # EcoDetect-YOLO 配置文件
 # 基于 YOLOv5s 修改，引入 Inception-CSP 结构
 
-nc: 12  # 类别数 (你的 GADIG 数据集有 12 类)
+nc: 12  # 类别数 (GADIG 数据集有 12 类)
 depth_multiple: 0.33  # model depth multiple
 width_multiple: 0.50  # model width multiple
 anchors:
